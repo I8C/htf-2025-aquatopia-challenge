@@ -1,0 +1,27 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:eu-central-1:128894441789:HTF25-Samoth-Challenge2SNS-jRmT1aITDEDL:1d4fc5ee-21c8-4f7d-b74a-a2622d99836f",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "189e7041-2826-528a-af11-11cf4b2e7867",
+                "TopicArn": "arn:aws:sns:eu-central-1:128894441789:HTF25-Samoth-Challenge2SNS-jRmT1aITDEDL",
+                "Message": "{\"team\":\"Peerlro\",\"timestamp\":\"2025-11-12T10:26:16.716Z\",\"originalEvent\":{\"data\":\"eyJhbGciOiJzdWJzdGl0dXRpb24tY2lwaGVyIiwia2lkIjoiY2RiYWE4MjEtNjE2MS00YmQ5LTgyNmMtZDg2MTRhYzlmZDQzIiwiY2lwaGVyIjoid2t3IGx0a3AgcnV6bGx6c2IifQ==\",\"species\":\"hazard\",\"location\":\"canyon-7\"}}",
+                "Timestamp": "2025-11-12T10:26:16.919Z",
+                "SignatureVersion": "1",
+                "Signature": "XrH3mFDcr4YIaPYah0iEAYIWh1KnOTCWJdoBktyFUFff9bt85FeuJorZwj+a08VoZ2Hi8vw0zHvT/52ImWqyenP4vGc4VQxsoYzyPBiGHV5v9P7OTi1/INvpOj/J/lHF7Y+Uqb4XVr4RwKKlR5S/k0mrW0+jn4Nbd6Evz3VPYZcB5vJVvP1ZEc8kccCy5HwWL8PS0nyZLUTCo+socJ6OR/d53GM5in6uBNNW7XfHoHgiro5ZhNlakBrTe0JJeu5H+aGJ2prVElYwanrG6iL2q82OicX2Qzg4coy66eKWo8hDeFBV8/WKmSNaNlWj/OJQJXD0tXnAC2uRJrDq8EY57w==",
+                "SigningCertUrl": "https://sns.eu-central-1.amazonaws.com/SimpleNotificationService-6209c161c6221fdf56ec1eb5c821d112.pem",
+                "Subject": null,
+                "UnsubscribeUrl": "https://sns.eu-central-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-central-1:128894441789:HTF25-Samoth-Challenge2SNS-jRmT1aITDEDL:1d4fc5ee-21c8-4f7d-b74a-a2622d99836f",
+                "MessageAttributes": {
+                    "team": {
+                        "Type": "String",
+                        "Value": "Peerlro"
+                    }
+                }
+            }
+        }
+    ]
+}
